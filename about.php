@@ -8,7 +8,7 @@ require 'includes/header.php';
 <section class="page-hero" aria-label="About page header">
   <div class="container page-hero-content">
     <nav class="breadcrumb" aria-label="Breadcrumb">
-      <a href="index.php">Home</a>
+      <a href="/">Home</a>
       <span aria-hidden="true">›</span>
       <span aria-current="page">About</span>
     </nav>
@@ -38,10 +38,10 @@ require 'includes/header.php';
         <p>Our headquarters sit at Namanve Industrial Park, Mukono, Uganda, positioning us at the heart of East Africa's commercial hub with direct links to Kampala and major export routes.</p>
         <p>We work alongside hundreds of farmers across Uganda's premier coffee-growing regions, providing technical support, fair pricing, and shared prosperity. Our modern processing facilities transform raw cherries into world-class green beans, roasted coffee, and precision-ground blends.</p>
         <div style="display:flex;gap:1rem;margin-top:2rem;flex-wrap:wrap;">
-          <a href="products.php" class="btn btn-primary">
+          <a href="products" class="btn btn-primary">
             <i class="fas fa-mug-hot"></i> Our Products
           </a>
-          <a href="contact.php" class="btn btn-outline">
+          <a href="contact" class="btn btn-outline">
             <i class="fas fa-handshake"></i> Partner With Us
           </a>
         </div>
@@ -217,8 +217,8 @@ require 'includes/header.php';
     <h2>Be Part of the Hinga Coffee Family</h2>
     <p>Whether as a buyer, partner, or supporter — every relationship we build strengthens Uganda's coffee future.</p>
     <div class="btn-group">
-      <a href="contact.php" class="btn btn-white"><i class="fas fa-envelope"></i> Get in Touch</a>
-      <a href="sustainability.php" class="btn btn-outline"><i class="fas fa-leaf"></i> Our Sustainability Pledge</a>
+      <a href="contact" class="btn btn-white"><i class="fas fa-envelope"></i> Get in Touch</a>
+      <a href="sustainability" class="btn btn-outline"><i class="fas fa-leaf"></i> Our Sustainability Pledge</a>
     </div>
   </div>
 </section>

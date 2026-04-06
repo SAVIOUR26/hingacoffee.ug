@@ -28,12 +28,12 @@
       <div class="footer-col">
         <h5>Quick Links</h5>
         <nav class="footer-links" aria-label="Footer navigation">
-          <a href="index.php">Home</a>
-          <a href="about.php">About Us</a>
-          <a href="products.php">Our Products</a>
-          <a href="gallery.php">Gallery</a>
-          <a href="sustainability.php">Sustainability</a>
-          <a href="contact.php">Contact</a>
+          <a href="/">Home</a>
+          <a href="about">About Us</a>
+          <a href="products">Our Products</a>
+          <a href="gallery">Gallery</a>
+          <a href="sustainability">Sustainability</a>
+          <a href="contact">Contact</a>
         </nav>
       </div>
 
@@ -41,11 +41,11 @@
       <div class="footer-col">
         <h5>Our Products</h5>
         <nav class="footer-links" aria-label="Products navigation">
-          <a href="products.php#green-beans">Green Coffee Beans</a>
-          <a href="products.php#roasted">Roasted Coffee Beans</a>
-          <a href="products.php#ground">Ground Coffee</a>
-          <a href="products.php#blends">Custom Blends</a>
-          <a href="products.php#export">Export Services</a>
+          <a href="products#green-beans">Green Coffee Beans</a>
+          <a href="products#roasted">Roasted Coffee Beans</a>
+          <a href="products#ground">Ground Coffee</a>
+          <a href="products#blends">Custom Blends</a>
+          <a href="products#export">Export Services</a>
         </nav>
       </div>
 

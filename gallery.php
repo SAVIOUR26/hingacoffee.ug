@@ -29,7 +29,7 @@ require 'includes/header.php';
   <div style="position:absolute;inset:0;background:url('assets/images/action-03.jpg') center/cover no-repeat;opacity:.22;"></div>
   <div class="container page-hero-content">
     <nav class="breadcrumb" aria-label="Breadcrumb">
-      <a href="index.php">Home</a>
+      <a href="/">Home</a>
       <span aria-hidden="true">›</span>
       <span aria-current="page">Gallery</span>
     </nav>
@@ -117,8 +117,8 @@ require 'includes/header.php';
     <h2>Let's Build Something Together</h2>
     <p>Contact our team to discuss your coffee import needs, partnership opportunities, or a custom product enquiry.</p>
     <div class="btn-group">
-      <a href="contact.php" class="btn btn-white"><i class="fas fa-envelope"></i> Contact Us</a>
-      <a href="products.php" class="btn btn-outline"><i class="fas fa-mug-hot"></i> View Products</a>
+      <a href="contact" class="btn btn-white"><i class="fas fa-envelope"></i> Contact Us</a>
+      <a href="products" class="btn btn-outline"><i class="fas fa-mug-hot"></i> View Products</a>
     </div>
   </div>
 </section>
