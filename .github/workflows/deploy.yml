@@ -1,0 +1,43 @@
+name: Deploy Hinga Coffee Website via FTP
+
+on:
+  push:
+    branches:
+      - main          # auto-deploy when code is merged to main
+  workflow_dispatch:  # allow manual trigger from GitHub Actions tab
+
+jobs:
+  deploy:
+    name: FTP Deploy to hingacoffee.ug
+    runs-on: ubuntu-latest
+
+    steps:
+      # ── 1. Checkout the repository ──────────────────────────
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # full history needed for changed-files detection
+
+      # ── 2. Deploy via FTP ───────────────────────────────────
+      - name: Deploy to server via FTP
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server:           ${{ secrets.FTP_SERVER }}
+          username:         ${{ secrets.FTP_USERNAME }}
+          password:         ${{ secrets.FTP_PASSWORD }}
+          protocol:         ftp
+          port:             21
+          local-dir:        ./           # root of repo
+          server-dir:       /public_html/ # adjust to your server's document root
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/node_modules/**
+            .github/**
+            README.md
+            "HINGA COFFEE –COMPANY PROFILE.txt"
+            "About profile-video.mp4"
+            action images*
+            logo.jpeg
+          dangerous-clean-slate: false   # keep files on server not in repo
+          log-level:        standard
