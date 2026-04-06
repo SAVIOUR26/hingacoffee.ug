@@ -28,7 +28,7 @@ jobs:
           protocol:         ftp
           port:             21
           local-dir:        ./           # root of repo
-          server-dir:       /public_html/ # adjust to your server's document root
+          server-dir:       ./            # FTP root IS the document root
           exclude: |
             **/.git*
             **/.git*/**
