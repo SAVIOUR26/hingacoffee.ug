@@ -8,7 +8,16 @@ require 'includes/header.php';
      HERO
 ════════════════════════════════════════════════════════════ -->
 <section class="hero" aria-label="Hero section">
-  <div class="hero-bg" role="img" aria-label="Coffee plantation background"></div>
+
+  <!-- Muted autoplay video background -->
+  <div class="hero-video-bg" aria-hidden="true">
+    <video autoplay muted loop playsinline preload="auto"
+           poster="assets/images/action-01.jpg">
+      <source src="assets/video/company-story.mp4" type="video/mp4">
+    </video>
+  </div>
+  <!-- Overlay drawn via .hero-video-bg::after in CSS -->
+
   <div class="hero-content">
     <div class="hero-badge">
       <i class="fas fa-leaf"></i>
@@ -17,14 +26,15 @@ require 'includes/header.php';
     <h1>Uganda's <em>Finest</em> Coffee, <em>Delivered</em> to the World</h1>
     <p>From the rich soils of Uganda to global markets — Hinga Coffee produces, processes, and exports premium quality coffee that tells the story of our land and its people.</p>
     <div class="hero-btns">
-      <a href="products.php" class="btn btn-primary">
+      <a href="products" class="btn btn-primary">
         <i class="fas fa-mug-hot"></i> Explore Our Coffee
       </a>
-      <a href="about.php" class="btn btn-outline">
+      <a href="about" class="btn btn-outline">
         <i class="fas fa-play-circle"></i> Our Story
       </a>
     </div>
   </div>
+
   <div class="hero-scroll" aria-hidden="true">
     <span>Scroll</span>
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -103,7 +113,7 @@ require 'includes/header.php';
           </div>
         </div>
 
-        <a href="about.php" class="btn btn-primary">
+        <a href="about" class="btn btn-primary">
           <i class="fas fa-arrow-right"></i> Discover Our Story
         </a>
       </div>
@@ -199,7 +209,7 @@ require 'includes/header.php';
           <span class="product-tag">Export Grade</span>
           <h3>Green Coffee Beans</h3>
           <p>Specialty-grade raw beans from Uganda's finest growing regions, ready for roasters worldwide.</p>
-          <a href="products.php#green-beans" class="btn btn-outline" style="padding:.6rem 1.25rem;font-size:.85rem;">Learn More</a>
+          <a href="products#green-beans" class="btn btn-outline" style="padding:.6rem 1.25rem;font-size:.85rem;">Learn More</a>
         </div>
       </article>
 
@@ -215,7 +225,7 @@ require 'includes/header.php';
           <span class="product-tag">Premium Roast</span>
           <h3>Roasted Coffee Beans</h3>
           <p>Expertly roasted to bring out the complex flavours and aroma Uganda's terroir is known for.</p>
-          <a href="products.php#roasted" class="btn btn-outline" style="padding:.6rem 1.25rem;font-size:.85rem;">Learn More</a>
+          <a href="products#roasted" class="btn btn-outline" style="padding:.6rem 1.25rem;font-size:.85rem;">Learn More</a>
         </div>
       </article>
 
@@ -231,7 +241,7 @@ require 'includes/header.php';
           <span class="product-tag">Ready to Brew</span>
           <h3>Ground Coffee</h3>
           <p>Precision-ground for consistent extraction — ideal for cafes, restaurants, and home brewers.</p>
-          <a href="products.php#ground" class="btn btn-outline" style="padding:.6rem 1.25rem;font-size:.85rem;">Learn More</a>
+          <a href="products#ground" class="btn btn-outline" style="padding:.6rem 1.25rem;font-size:.85rem;">Learn More</a>
         </div>
       </article>
 
@@ -247,13 +257,13 @@ require 'includes/header.php';
           <span class="product-tag">Bespoke</span>
           <h3>Custom Blends</h3>
           <p>Tailor-made blends for private label brands, specialty importers, and hospitality groups.</p>
-          <a href="products.php#blends" class="btn btn-outline" style="padding:.6rem 1.25rem;font-size:.85rem;">Learn More</a>
+          <a href="products#blends" class="btn btn-outline" style="padding:.6rem 1.25rem;font-size:.85rem;">Learn More</a>
         </div>
       </article>
     </div>
 
     <div class="text-center" style="margin-top:2.5rem;">
-      <a href="products.php" class="btn btn-primary">
+      <a href="products" class="btn btn-primary">
         <i class="fas fa-th-large"></i> View All Products
       </a>
     </div>
@@ -299,7 +309,7 @@ require 'includes/header.php';
   </div>
 
   <div class="container text-center" style="margin-top:2.5rem;">
-    <a href="gallery.php" class="btn btn-outline">
+    <a href="gallery" class="btn btn-outline">
       <i class="fas fa-images"></i> View Full Gallery
     </a>
   </div>
@@ -357,10 +367,10 @@ require 'includes/header.php';
     <h2>Start Your Hinga Coffee Journey</h2>
     <p>Whether you are a local café or an international importer, we have the perfect coffee solution for you.</p>
     <div class="btn-group">
-      <a href="contact.php" class="btn btn-white">
+      <a href="contact" class="btn btn-white">
         <i class="fas fa-envelope"></i> Contact Us Today
       </a>
-      <a href="products.php" class="btn btn-outline">
+      <a href="products" class="btn btn-outline">
         <i class="fas fa-mug-hot"></i> View Products
       </a>
     </div>

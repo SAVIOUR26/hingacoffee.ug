@@ -226,19 +226,35 @@ p  { color: var(--text-muted); max-width: 68ch; }
   min-height: 100vh;
   display: flex;
   align-items: center;
-  overflow: hidden;
+  /* overflow visible so buttons never get clipped */
 }
 
-.hero-bg {
+/* Video background */
+.hero-video-bg {
   position: absolute;
   inset: 0;
-  background: url('../images/action-01.jpg') center/cover no-repeat;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+  /* fallback bg while video loads */
+  background: var(--dark);
 }
-.hero-bg::after {
+/* Gradient overlay on top of video */
+.hero-video-bg::after {
   content: '';
   position: absolute;
   inset: 0;
   background: linear-gradient(135deg, rgba(26,10,0,.88) 0%, rgba(61,26,0,.72) 50%, rgba(74,122,60,.35) 100%);
+  z-index: 1;
+}
+/* The actual <video> tag sits inside .hero-video-bg */
+.hero-video-bg video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .hero-content {
@@ -246,7 +262,8 @@ p  { color: var(--text-muted); max-width: 68ch; }
   z-index: 2;
   width: min(1200px, 92%);
   margin-inline: auto;
-  padding: 8rem 0 5rem;
+  /* reduced top/bottom padding so content is never clipped on desktop */
+  padding: 7rem 0 4rem;
 }
 .hero-badge {
   display: inline-flex;

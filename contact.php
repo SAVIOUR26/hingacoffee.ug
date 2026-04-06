@@ -42,7 +42,7 @@ require 'includes/header.php';
   <div style="position:absolute;inset:0;background:url('assets/images/action-15.jpg') center/cover no-repeat;opacity:.2;"></div>
   <div class="container page-hero-content">
     <nav class="breadcrumb" aria-label="Breadcrumb">
-      <a href="index.php">Home</a>
+      <a href="/">Home</a>
       <span aria-hidden="true">›</span>
       <span aria-current="page">Contact</span>
     </nav>
@@ -145,7 +145,7 @@ require 'includes/header.php';
         </div>
         <?php endif; ?>
 
-        <form id="contact-form" method="POST" action="contact.php" novalidate>
+        <form id="contact-form" method="POST" action="contact" novalidate>
           <div class="form-row">
             <div class="form-group">
               <label for="name">Full Name <span style="color:#B91C1C;" aria-hidden="true">*</span></label>

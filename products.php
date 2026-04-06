@@ -9,7 +9,7 @@ require 'includes/header.php';
   <div style="position:absolute;inset:0;background:url('assets/images/action-06.jpg') center/cover no-repeat;opacity:.2;"></div>
   <div class="container page-hero-content">
     <nav class="breadcrumb" aria-label="Breadcrumb">
-      <a href="index.php">Home</a>
+      <a href="/">Home</a>
       <span aria-hidden="true">›</span>
       <span aria-current="page">Products</span>
     </nav>
@@ -50,7 +50,7 @@ require 'includes/header.php';
           </li>
           <?php endforeach; ?>
         </ul>
-        <a href="contact.php" class="btn btn-primary"><i class="fas fa-envelope"></i> Request a Sample</a>
+        <a href="contact" class="btn btn-primary"><i class="fas fa-envelope"></i> Request a Sample</a>
       </div>
     </div>
   </div>
@@ -90,7 +90,7 @@ require 'includes/header.php';
           </li>
           <?php endforeach; ?>
         </ul>
-        <a href="contact.php" class="btn btn-primary"><i class="fas fa-envelope"></i> Request a Sample</a>
+        <a href="contact" class="btn btn-primary"><i class="fas fa-envelope"></i> Request a Sample</a>
       </div>
     </div>
   </div>
@@ -131,7 +131,7 @@ require 'includes/header.php';
           </li>
           <?php endforeach; ?>
         </ul>
-        <a href="contact.php" class="btn btn-primary"><i class="fas fa-envelope"></i> Request a Sample</a>
+        <a href="contact" class="btn btn-primary"><i class="fas fa-envelope"></i> Request a Sample</a>
       </div>
     </div>
   </div>
@@ -171,7 +171,7 @@ require 'includes/header.php';
           </li>
           <?php endforeach; ?>
         </ul>
-        <a href="contact.php" class="btn btn-primary"><i class="fas fa-envelope"></i> Discuss Your Blend</a>
+        <a href="contact" class="btn btn-primary"><i class="fas fa-envelope"></i> Discuss Your Blend</a>
       </div>
     </div>
   </div>
@@ -215,8 +215,8 @@ require 'includes/header.php';
     <h2>Find the Perfect Coffee for Your Market</h2>
     <p>Contact us to discuss your requirements, request samples, or learn more about our export process.</p>
     <div class="btn-group">
-      <a href="contact.php" class="btn btn-white"><i class="fas fa-envelope"></i> Get a Quote</a>
-      <a href="gallery.php" class="btn btn-outline"><i class="fas fa-images"></i> See Our Gallery</a>
+      <a href="contact" class="btn btn-white"><i class="fas fa-envelope"></i> Get a Quote</a>
+      <a href="gallery" class="btn btn-outline"><i class="fas fa-images"></i> See Our Gallery</a>
     </div>
   </div>
 </section>

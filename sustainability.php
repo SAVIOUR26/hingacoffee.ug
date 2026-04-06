@@ -9,7 +9,7 @@ require 'includes/header.php';
   <div style="position:absolute;inset:0;background:url('assets/images/action-12.jpg') center/cover no-repeat;opacity:.22;"></div>
   <div class="container page-hero-content">
     <nav class="breadcrumb" aria-label="Breadcrumb">
-      <a href="index.php">Home</a>
+      <a href="/">Home</a>
       <span aria-hidden="true">›</span>
       <span aria-current="page">Sustainability</span>
     </nav>
@@ -52,7 +52,7 @@ require 'includes/header.php';
           </div>
           <?php endforeach; ?>
         </div>
-        <a href="contact.php" class="btn btn-primary">
+        <a href="contact" class="btn btn-primary">
           <i class="fas fa-handshake"></i> Partner Responsibly
         </a>
       </div>
@@ -210,8 +210,8 @@ require 'includes/header.php';
     <h2>Choose Coffee That Cares</h2>
     <p>When you buy Hinga Coffee, you are investing in Ugandan farmers, communities, and the environment. Let's build a better coffee future together.</p>
     <div class="btn-group">
-      <a href="contact.php" class="btn btn-white"><i class="fas fa-envelope"></i> Partner With Us</a>
-      <a href="about.php" class="btn btn-outline"><i class="fas fa-users"></i> Meet Our Team</a>
+      <a href="contact" class="btn btn-white"><i class="fas fa-envelope"></i> Partner With Us</a>
+      <a href="about" class="btn btn-outline"><i class="fas fa-users"></i> Meet Our Team</a>
     </div>
   </div>
 </section>

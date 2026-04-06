@@ -46,7 +46,7 @@ if (!isset($page_description)) $page_description = 'Hinga Coffee is a proudly Ug
 <!-- Navigation -->
 <nav id="navbar" role="navigation" aria-label="Main navigation">
   <div class="nav-inner">
-    <a href="index.php" class="nav-logo" aria-label="Hinga Coffee Home">
+    <a href="/" class="nav-logo" aria-label="Hinga Coffee Home">
       <img src="assets/images/logo.jpg" alt="Hinga Coffee Logo">
       <div class="nav-logo-text">
         <span>Hinga Coffee</span>
@@ -55,16 +55,16 @@ if (!isset($page_description)) $page_description = 'Hinga Coffee is a proudly Ug
     </a>
 
     <ul class="nav-links" role="list">
-      <li><a href="index.php"          <?= $current_page === 'index.php'          ? 'class="active"' : '' ?>>Home</a></li>
-      <li><a href="about.php"          <?= $current_page === 'about.php'          ? 'class="active"' : '' ?>>About</a></li>
-      <li><a href="products.php"       <?= $current_page === 'products.php'       ? 'class="active"' : '' ?>>Products</a></li>
-      <li><a href="sustainability.php" <?= $current_page === 'sustainability.php' ? 'class="active"' : '' ?>>Sustainability</a></li>
-      <li><a href="gallery.php"        <?= $current_page === 'gallery.php'        ? 'class="active"' : '' ?>>Gallery</a></li>
-      <li><a href="contact.php"        <?= $current_page === 'contact.php'        ? 'class="active"' : '' ?>>Contact</a></li>
+      <li><a href="/"          <?= $current_page === 'index.php'          ? 'class="active"' : '' ?>>Home</a></li>
+      <li><a href="about"          <?= $current_page === 'about.php'          ? 'class="active"' : '' ?>>About</a></li>
+      <li><a href="products"       <?= $current_page === 'products.php'       ? 'class="active"' : '' ?>>Products</a></li>
+      <li><a href="sustainability" <?= $current_page === 'sustainability.php' ? 'class="active"' : '' ?>>Sustainability</a></li>
+      <li><a href="gallery"        <?= $current_page === 'gallery.php'        ? 'class="active"' : '' ?>>Gallery</a></li>
+      <li><a href="contact"        <?= $current_page === 'contact.php'        ? 'class="active"' : '' ?>>Contact</a></li>
     </ul>
 
     <div class="nav-cta">
-      <a href="contact.php" class="btn btn-primary" style="padding:.6rem 1.35rem;font-size:.86rem;">
+      <a href="contact" class="btn btn-primary" style="padding:.6rem 1.35rem;font-size:.86rem;">
         <i class="fas fa-envelope" aria-hidden="true"></i> Get in Touch
       </a>
     </div>
@@ -80,11 +80,11 @@ if (!isset($page_description)) $page_description = 'Hinga Coffee is a proudly Ug
   <button class="mobile-close" aria-label="Close mobile menu">
     <i class="fas fa-times"></i>
   </button>
-  <a href="index.php">Home</a>
-  <a href="about.php">About</a>
-  <a href="products.php">Products</a>
-  <a href="sustainability.php">Sustainability</a>
-  <a href="gallery.php">Gallery</a>
-  <a href="contact.php">Contact</a>
-  <a href="contact.php" class="btn btn-primary" style="margin-top:1rem;">Get in Touch</a>
+  <a href="/">Home</a>
+  <a href="about">About</a>
+  <a href="products">Products</a>
+  <a href="sustainability">Sustainability</a>
+  <a href="gallery">Gallery</a>
+  <a href="contact">Contact</a>
+  <a href="contact" class="btn btn-primary" style="margin-top:1rem;">Get in Touch</a>
 </div>
