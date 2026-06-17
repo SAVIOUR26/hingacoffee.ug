@@ -1,6 +1,6 @@
 <?php
 $page_title       = 'Contact Us – Hinga Coffee Uganda';
-$page_description = 'Get in touch with Hinga Coffee. Enquire about our products, partnerships, export services, or sustainability programmes. Based in Namanve Industrial Park, Mukono, Uganda.';
+$page_description = 'Get in touch with Hinga Coffee. Enquire about our products, partnerships, export services, or sustainability programmes. Based in Innovation District, 5th Street Industrial Area, Kampala, Uganda.';
 
 /* Simple contact form handler */
 $success = false;
@@ -72,7 +72,7 @@ require 'includes/header.php';
           <div>
             <h4>Our Office</h4>
             <address style="font-style:normal;">
-              <p>Namanve Industrial Park<br>Mukono, Uganda<br>East Africa</p>
+              <p>Innovation District<br>5th Street Industrial Area<br>Kampala, Uganda</p>
             </address>
           </div>
         </div>
@@ -82,6 +82,8 @@ require 'includes/header.php';
           <div>
             <h4>Phone / WhatsApp</h4>
             <p><a href="tel:+256740863044" style="color:var(--text-muted);"><strong>+256 740 863044</strong></a></p>
+            <p><a href="tel:+256793995563" style="color:var(--text-muted);"><strong>+256 793 995563</strong></a></p>
+            <p><a href="tel:+256745778411" style="color:var(--text-muted);"><strong>+256 745 778411</strong></a></p>
             <p style="font-size:.87rem;margin-top:.2rem;">Mon–Fri, 8 AM – 6 PM EAT</p>
           </div>
         </div>
@@ -91,6 +93,7 @@ require 'includes/header.php';
           <div>
             <h4>Email</h4>
             <p><a href="mailto:info@hingacoffee.ug" style="color:var(--text-muted);"><strong>info@hingacoffee.ug</strong></a></p>
+            <p><a href="mailto:hingacoffeeuganda@gmail.com" style="color:var(--text-muted);"><strong>hingacoffeeuganda@gmail.com</strong></a></p>
           </div>
         </div>
 
@@ -110,8 +113,8 @@ require 'includes/header.php';
         <!-- Map placeholder (wire to Google Maps embed on deployment) -->
         <div style="border-radius:var(--radius-lg);overflow:hidden;border:2px solid var(--cream-dark);background:var(--cream);height:220px;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:.75rem;color:var(--text-muted);">
           <i class="fas fa-map-marked-alt" style="font-size:2.5rem;color:var(--gold);" aria-hidden="true"></i>
-          <p style="max-width:100%;text-align:center;font-size:.9rem;">Namanve Industrial Park,<br>Mukono, Uganda</p>
-          <a href="https://www.google.com/maps/search/Namanve+Industrial+Park+Mukono+Uganda"
+          <p style="max-width:100%;text-align:center;font-size:.9rem;">Innovation District,<br>5th Street Industrial Area, Kampala, Uganda</p>
+          <a href="https://www.google.com/maps/search/Innovation+District+5th+Street+Industrial+Area+Kampala+Uganda"
              target="_blank" rel="noopener noreferrer"
              class="btn btn-outline" style="padding:.5rem 1.1rem;font-size:.82rem;">
             <i class="fas fa-external-link-alt"></i> View on Google Maps

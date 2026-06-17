@@ -35,7 +35,7 @@ require 'includes/header.php';
         <span class="section-label">Company Overview</span>
         <h2>Who Is Hinga Coffee?</h2>
         <p>Hinga Coffee is a proudly Ugandan-owned coffee company with a clear focus on producing, processing, and exporting premium quality coffee. We are dedicated to building a fully vertically integrated value chain — from cultivation through processing to delivery — ensuring that quality and traceability are maintained at every stage.</p>
-        <p>Our headquarters sit at Namanve Industrial Park, Mukono, Uganda, positioning us at the heart of East Africa's commercial hub with direct links to Kampala and major export routes.</p>
+        <p>Our headquarters sit at Innovation District, 5th Street Industrial Area, Kampala, Uganda, positioning us at the heart of East Africa's commercial hub with direct links across the region and major export routes.</p>
         <p>We work alongside hundreds of farmers across Uganda's premier coffee-growing regions, providing technical support, fair pricing, and shared prosperity. Our modern processing facilities transform raw cherries into world-class green beans, roasted coffee, and precision-ground blends.</p>
         <div style="display:flex;gap:1rem;margin-top:2rem;flex-wrap:wrap;">
           <a href="products" class="btn btn-primary">

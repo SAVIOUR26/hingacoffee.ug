@@ -6,8 +6,10 @@ $current_page = basename($_SERVER['PHP_SELF']);
 $site_name  = 'Hinga Coffee';
 $site_tagline = 'Uganda\'s Premium Coffee';
 $site_email = 'info@hingacoffee.ug';
+$site_email_alt = 'hingacoffeeuganda@gmail.com';
 $site_phone = '+256 740 863044';
-$site_addr  = 'Namanve Industrial Park, Mukono, Uganda';
+$site_phone_alt = ['+256 793 995563', '+256 745 778411'];
+$site_addr  = 'Innovation District, 5th Street Industrial Area, Kampala, Uganda';
 
 /* Allow pages to set their own title/description */
 if (!isset($page_title))       $page_title       = "$site_name – $site_tagline";

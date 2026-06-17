@@ -38,6 +38,6 @@
 FTP to production server. Document root should point to `/hingacoffee.ug/`.
 
 ### Contact Info (from profile)
-- **Location**: Namanve Industrial Park, Mukono, Uganda
-- **Email**: info@hingacoffe.ug
-- **Phone**: +256 740 863044
+- **Location**: Innovation District, 5th Street Industrial Area, Kampala, Uganda
+- **Email**: info@hingacoffee.ug, hingacoffeeuganda@gmail.com
+- **Phone**: +256 740 863044, +256 793 995563, +256 745 778411
