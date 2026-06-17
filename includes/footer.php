@@ -55,15 +55,18 @@
         <address style="font-style:normal;">
           <div class="footer-contact-item">
             <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
-            <span>Namanve Industrial Park,<br>Mukono, Uganda</span>
+            <span>Innovation District,<br>5th Street Industrial Area, Kampala, Uganda</span>
           </div>
           <div class="footer-contact-item">
             <i class="fas fa-phone" aria-hidden="true"></i>
-            <a href="tel:+256740863044" style="color:inherit;">+256 740 863044</a>
+            <a href="tel:+256740863044" style="color:inherit;">+256 740 863044</a> /
+            <a href="tel:+256793995563" style="color:inherit;">+256 793 995563</a> /
+            <a href="tel:+256745778411" style="color:inherit;">+256 745 778411</a>
           </div>
           <div class="footer-contact-item">
             <i class="fas fa-envelope" aria-hidden="true"></i>
-            <a href="mailto:info@hingacoffee.ug" style="color:inherit;">info@hingacoffee.ug</a>
+            <a href="mailto:info@hingacoffee.ug" style="color:inherit;">info@hingacoffee.ug</a> /
+            <a href="mailto:hingacoffeeuganda@gmail.com" style="color:inherit;">hingacoffeeuganda@gmail.com</a>
           </div>
           <div class="footer-contact-item">
             <i class="fas fa-clock" aria-hidden="true"></i>
